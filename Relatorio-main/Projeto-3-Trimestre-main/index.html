@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alura MIDI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">   
+
+</head>
+<body onload="TocarTudo()">
+
+    <h1>Alura Midi</h1>
+
+    <section class="teclado">
+        <button class="tecla tecla_pom" onclick="TocarSomPom()">Pom</button>
+        <button class="tecla tecla_clap" onclick="TocarSomClap()">Clap</button>
+        <button class="tecla tecla_tim" onclick="TocarSomTim()">Tim</button>
+        <button class="tecla botao_novo_1" onclick="TocarSomA()">A</button>
+
+        <button class="tecla tecla_puff" onclick="TocarSomPuff()">Puff</button>
+        <button class="tecla tecla_splash" onclick="TocarSomSplash()">Splash</button>
+        <button class="tecla tecla_toim" onclick="TocarSomToim()">Toim</button>
+        <button class="tecla botao_novo_2" onclick="TocarSomOof()">Ooof</button>
+
+        <button class="tecla tecla_psh" onclick="TocarSomPsh()">Psh</button>
+        <button class="tecla tecla_tic" onclick="TocarSomTic()">Tic</button>
+        <button class="tecla tecla_tom" onclick="TocarSomTom()">Tom</button>
+        <button class="tecla botao_novo_3" onclick="TocarSomPipe()">PipeFall</button>
+
+        <button class="tecla botao_pare" onclick="TocarSomPare()">Pare</button>
+    </section>
+
+    <audio src="sounds/keyq.wav" class="som" id="som_tecla_pom"></audio>
+    <audio src="sounds/keyw.wav" class="som" id="som_tecla_clap"></audio>
+    <audio src="sounds/keye.wav" class="som" id="som_tecla_tim"></audio>
+    <audio src="sounds/A.mp3" class="som" id="som_tecla_A"></audio>
+    <audio src="sounds/keya.wav" class="som" id="som_tecla_puff"></audio>
+    <audio src="sounds/keys.wav" class="som" id="som_tecla_splash"></audio>
+    <audio src="sounds/keyd.wav" class="som" id="som_tecla_toim"></audio>
+    <audio src="sounds/oof.mp3" class="som" id="som_tecla_oof"></audio>
+    <audio src="sounds/keyz.wav" class="som" id="som_tecla_psh"></audio>
+    <audio src="sounds/keyx.wav" class="som" id="som_tecla_tic"></audio>
+    <audio src="sounds/keyc.wav" class="som" id="som_tecla_tom"></audio>
+    <audio src="sounds/PipeFalling.mp3" class="som" id="som_tecla_Pipe"></audio>
+    <audio src="sounds/pare.mp3" class="som" id="som_tecla_pare"></audio>
+
+<script src="main.js"></script>
+</body>
+</html>
