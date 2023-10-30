@@ -41,3 +41,13 @@ Nomes: Thiago Ch. B. Silva      Números: 24     Série: 2ºB
 
  II - Eu tentei colocar pro comando "chamar" os botão, coloquei pra chamar os audio, coloquei pra 
  ativa quando a página carrega, e não descobri o valor de X.
+
+      Questões dia 30/10
+
+I - Apareceu uma "NodeList" com o nomes dos botões dentro desse bagulho -> []; E embaixo tem uma setinha mostrando os botões com numerações referente a cada um.
+
+II - Elas vão de 0 a 12, em ordem da esquerda pra direita de cima pra baixo.
+
+III - Não saiu som, mas o console reconhece a função.
+
+IV - Basta trocar o número entre esse bagulho -> [], e trocar o nome da função, de "TocarSomPom" para a do botão que você quer tocar.
