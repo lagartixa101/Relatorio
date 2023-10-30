@@ -53,3 +53,5 @@ function TocarSomPare(){
 function TocarTudo(){
     document.querySelectorAll("audio");
 }
+
+const listaTecla = document.querySelectorAll('.tecla');
